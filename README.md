@@ -8,6 +8,9 @@ Single-cycle RISC-V CPU implemented with Verilog
 
 In this project, a single-cycle RISC-V CPU is implemented with Verilog. This project was developed as Lab 1 for the course Computer Architecture at National Taiwan University.
 
+Modules provided directly by TAs: `Instruction_Memory.v`, `PC.v`, `Registers.v`, `testbench.v`, `functions.vh`, `instruction.txt`
+Modules implemented by me (following TAs' design specifications): `Adder.v`, `ALU_Control.v`, `ALU.v`, `Control.v`, `CPU.v`, `MUX32.v`, `Sign_Extend.v`
+
 ## Execution Guide
 
 To compile and run the project, follow the steps:
